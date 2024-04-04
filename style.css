@@ -1,0 +1,262 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+}
+#header {
+    background-color:#5fca8ad0;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+
+#nav {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+}
+
+#nav li {
+    margin-right: 40px;
+}
+
+#nav li a {
+    text-decoration: none;
+    color: #000000de; 
+}
+#nav li a:hover{
+    color: #ad1f1f;
+    transition: 0.3s;
+}
+#hero {
+    background-image:url("hero@.jpeg");
+    background-color:#f8f9fa; 
+    text-align: center;
+    padding: 50px 0;
+    width: 100%;
+    height: 85vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+.mn{
+    float: left; 
+}
+h1,h3,p{
+    padding: 10px 90px 10px 30px;
+    margin-top: 20px;
+    font-size: 18px;
+
+}
+.Q{
+    color:red;
+    font-size: 50px;
+    animation-name: www;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes www {
+from{color: red;}
+to{color: blue;}
+}
+.button{
+    background-image: url("trans.png");
+    background-position:top;
+    background-color: transparent;
+    border: 10px;
+    padding: 90px 100px 50px 150px;
+    background-repeat: no-repeat;
+    font-weight: 900;
+    font-size: 15px;
+    }
+.pro1 {
+    background-color: #f8f9fa;
+    text-align: center;
+   
+.p{
+    display:grid ;
+    grid-template-columns: repeat(5, 1fr);
+    gap:1px;
+    padding: 10px;
+}
+}
+.H1 {
+    color: #9b1010;
+    font-size: 28px;
+}
+
+.pro1 p {
+    color: #666;
+    margin-bottom: 10px;
+}
+.pro2 {
+    width: 220px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 20px;
+    border-radius:3%;
+}
+#mm {
+    width: 100%;
+}
+.pro4 {
+    padding-top: 10px;
+}
+
+span {
+    font-weight: bold;
+}
+h5 {
+    margin: 5px 0;
+}
+.pro4 h4 {
+    margin-top: 10px;
+    color: green;
+}
+
+.star ,i{
+    color: goldenrod;
+}
+
+.pro4 a {
+    display: inline-block;
+    background-color: #007bff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.pro4 a:hover {
+    background-color: #0056b3;
+}
+footer{
+    background-color: beige;
+}
+footer div {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 80px; 
+}
+
+footer .f1,.f2{
+    text-indent: 55px;
+}
+footer .ftr4{
+    display: flex;
+    text-indent: 500px;
+    font-size: 14px;
+    color: #999;
+    margin-bottom: 10px;
+}
+footer .ftr1,
+footer .ftr2,
+footer .ftr3 {
+  margin: 0 10px;
+  color: #999;
+}
+.ftr2 ,h3{
+    text-indent: 25px;
+}
+footer h3 {
+    color: #333;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+footer h2 {
+    color: #333;
+    padding: 20px;
+    margin-bottom: 30px;
+    text-indent: 50px;
+    margin-top: 20px;
+}
+footer a:hover {
+    color: #000;
+}
+
+div .pe {
+    margin-top: 2px;
+    margin-right: 20px;
+    border:   blue;
+    width: 4px;
+    background-color: hsl(0, 0%, 40%,0.2);
+    margin: 4px;
+    border-radius: 10%; 
+}
+.pe a{ 
+    text-decoration: none;
+}
+footer a {
+    display:block;
+    color: #666;
+    text-decoration: none;
+    margin-bottom: 8px; 
+}
+
+nav,.abt1{
+    display: flex;
+    text-indent: 1050px;
+    margin: 5px;
+    position: sticky;
+    top: 0;
+    left: 0;
+    text-decoration: none;
+}
+.abt2{
+    text-indent: 500px;
+    margin: 20px;
+}
+.abt3, h2{
+    text-indent: 100px;
+}
+.body{
+    background-color: aquamarine;
+}
+.al{
+    background-color: azure;
+    width: 800px;
+    height: 80vh;
+    padding: 30px;
+    margin: 50px auto 0;
+    word-spacing: 2px;
+    border-radius: 20px;
+}
+.al h2{
+    color: #b11515;
+    display: flex;
+    text-indent: 300px;
+    margin-bottom: 20px;
+
+}
+.al h4{
+    color: #b11515;
+}
+.gp1,.gp3,.gp4,.gp5{
+    margin-bottom: 20px;
+    width: 100%;
+    padding: 0px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 10px;
+    gap: 20px;
+}
+.gp2{
+    margin-bottom: 20px;
+    margin-top: 20px;
+    width: 100%;
+    padding: 0px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 10px;
+    
+}
+.pay {
+    margin: 30px;
+    text-indent: 250px;
+   
+}
